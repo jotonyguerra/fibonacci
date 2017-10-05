@@ -23,3 +23,4 @@ fibonacci(13)
 ## Solution
 
 use of golden ration to return the fibonacci number.
+fibonacci formula phi 6
