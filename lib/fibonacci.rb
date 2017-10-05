@@ -16,3 +16,13 @@ end
 print "Enter the number of the Fibonacci sequence you'd would like to find: "
 number = gets.chomp.to_i
 puts fibonacci(number)
+
+
+puts Benchmark.measure { "a"*1_000_000 }
+puts fibonacci(1)
+puts fibonacci(2)
+puts fibonacci(6)
+puts fibonacci(8)
+puts fibonacci(13)
+puts fibonacci(25)
+puts fibonacci(100)
