@@ -1,6 +1,6 @@
 require_relative '../lib/fibonacci'
 
-describe "Fibonacci" do
+describe "fibonacci" do
   it "calculates the 1st item in the series" do
     expect(fibonacci(1)).to eq 1
   end
